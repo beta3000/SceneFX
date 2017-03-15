@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ciro.app.controller.FirstController">
+   <children>
+      <Label layoutX="58.0" layoutY="37.0" text="Start Window">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="86.0" text="New Window">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="134.0" text="Change Window">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonNewWindow" layoutX="331.0" layoutY="84.0" mnemonicParsing="false" onAction="#openNewWindow" text="Ok" />
+      <Button fx:id="buttonChangeWindow" layoutX="331.0" layoutY="132.0" mnemonicParsing="false" onAction="#changeWindow" text="Ok" />
+   </children>
+</AnchorPane>
